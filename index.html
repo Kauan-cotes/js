@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.js">
+    <link rel="stylesheet" href="perfil.html">
+    <div>
+        <h1>Pet Shop</h1>
+        <a href="Perfil.html"> Perfil</a>
+    </div>
+    <h3>Adote seu Cachorro</h3>
+    <p>Adotar um cachorro é um ato de amor que salva vidas e traz muitos benefícios. Além de dar um lar a um animal
+        abandonado, você ganha um companheiro leal, que traz alegria, afeto e melhora o bem-estar emocional. Ter um cão
+        estimula um estilo de vida mais ativo, é mais econômico do que comprar e ajuda a combater o comércio ilegal de
+        animais. Adotar é transformar duas vidas: a dele e a sua. 🐶💛
+        <br>
+        <br>
+        <br>
+        <button onclick="trocarCachorro()">></button>
+        <br>
+        <br>
+        <br>
+        <img id="cachorro" src="img/cachorro1.jpg" alt=">">
+        <script>
+            let idAtual = 1;
+
+            function trocarCachorro() {
+                idAtual++;
+
+                document.getElementById("cachorro").src = "img/cachorro2.jpeg";
+
+            }
+        </script>
+        </div>
+        <br>
+        <br>
+        </button>
+</body>
+
+</html>
